@@ -1,0 +1,124 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0b1124; /* Fundo azul escuro */
+    color: #f0f0f0; /* Texto claro */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #1a2a48; /* Azul-escuro mais claro */
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Titulo e Logo do site */
+header h1 {
+    font-size: 2.5rem;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+/* Nav */
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #6ca0ff; /* Azul-claro */
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #85b1ff; /* Azul mais vibrante */
+    text-decoration: underline;
+}
+
+/* Main  */
+main {
+    margin-top: 20px;
+}
+
+main section {
+    background: #1a2a48; /* Fundo de cartão */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+main section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+main section p {
+    margin-bottom: 15px;
+}
+
+/* Manga */
+.manga-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.manga-card {
+    background-color: #243354; /* Azul ainda mais claro */
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.manga-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.manga-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.manga-card button {
+    background-color: #6ca0ff;
+    color: #0b1124;
+    border: none;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.manga-card button:hover {
+    background-color: #85b1ff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 20px;
+    color: #888;
+}
