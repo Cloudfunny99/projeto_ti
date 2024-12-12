@@ -10,7 +10,7 @@ Este será um site para o visionamento de mangas,manhua e outro tipos de livros 
 
 
 **Para Imagens**
-![Galeria com os filmes em exibição](https://antrob.github.io/exemploPW/filmes_p.png "Filmes em exibição")
+![Galeria com os filmes em exibição]("Livros em exibição")
 
 
 
