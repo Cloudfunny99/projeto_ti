@@ -7,15 +7,15 @@ body, h1, h2, p, ul {
 /* Body */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #0b1124; /* Fundo azul escuro */
-    color: #f0f0f0; /* Texto claro */
+    background-color: #0b1124; 
+    color: #f0f0f0; 
     line-height: 1.6;
     padding: 20px;
 }
 
 /* Header */
 header {
-    background-color: #1a2a48; /* Azul-escuro mais claro */
+    background-color: #1a2a48; 
     color: #f0f0f0;
     text-align: center;
     padding: 20px 0;
@@ -23,13 +23,13 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Titulo e Logo do site */
+
 header h1 {
     font-size: 2.5rem;
     font-family: 'Comic Sans MS', sans-serif;
 }
 
-/* Nav */
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -42,13 +42,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #6ca0ff; /* Azul-claro */
+    color: #6ca0ff;
     text-decoration: none;
     font-size: 1.1rem;
 }
 
 nav ul li a:hover {
-    color: #85b1ff; /* Azul mais vibrante */
+    color: #85b1ff; 
     text-decoration: underline;
 }
 
@@ -58,7 +58,7 @@ main {
 }
 
 main section {
-    background: #1a2a48; /* Fundo de cartão */
+    background: #1a2a48; 
     border-radius: 8px;
     padding: 20px;
     margin: 20px 0;
@@ -77,12 +77,12 @@ main section p {
 /* Manga */
 .manga-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
-    gap: 16px; /* Espaçamento entre os itens */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 16px; 
 }
 
 .manga-card {
-    background-color: #243354; /* Azul ainda mais claro */
+    background-color: #243354; 
     border-radius: 8px;
     text-align: center;
     padding: 10px;
