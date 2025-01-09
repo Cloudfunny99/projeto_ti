@@ -77,8 +77,8 @@ main section p {
 /* Manga */
 .manga-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+    gap: 16px; /* Espaçamento entre os itens */
 }
 
 .manga-card {
@@ -92,6 +92,7 @@ main section p {
 
 .manga-card img {
     max-width: 100%;
+    height: 500px;
     border-radius: 8px;
     margin-bottom: 10px;
 }
